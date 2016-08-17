@@ -1,6 +1,6 @@
 [
 	{
-		"name": "start_latitude",
+		"name": "miki_latitude",
 		"in": "query",
 		"description": "Latitude component of start location.",
 		"required": true,
