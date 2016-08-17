@@ -1,0 +1,31 @@
+[
+	{
+		"name": "start_latitude",
+		"in": "query",
+		"description": "Latitude component of start location.",
+		"required": true,
+		"type": "number",
+		"format": "double"
+	},
+	{
+		"name": "start_longitude",
+		"in": "query",
+		"description": "Longitude component of start location.",
+		"required": true,
+		"type": "number",
+		"format": "double"
+	},
+	{
+		"name": "customer_uuid",
+		"in": "query",
+		"type": "string",
+		"format": "uuid",
+		"description": "Unique customer identifier to be used for experience customization."
+	},
+	{
+		"name": "product_id",
+		"in": "query",
+		"type": "string",
+		"description": "Unique identifier representing a specific product for a given latitude & longitude."
+	}
+]
